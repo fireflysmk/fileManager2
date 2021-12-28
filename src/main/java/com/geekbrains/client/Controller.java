@@ -63,6 +63,7 @@ public class Controller implements Initializable {
         }
     }
 
+
     private void fillServerView(List<String> list) {
         serverFiles.getItems().clear();
         serverFiles.getItems().addAll(list);

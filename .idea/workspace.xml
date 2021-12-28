@@ -20,72 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/AbstractMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FileMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FileRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FilesList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/AbstractMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/ContextStoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/HandlerProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/StringMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/UserNameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/ExampleBuffers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/ExamplesPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/NioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/IntFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/StreamExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/cloud_client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/Client1/FilefromClient1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/Client1/filreFromServer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/Client1/testcopiedFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/ServerCommonStorage/FilefromClient1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/ServerCommonStorage/filreFromServer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/FileInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/cloud_client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/AbstractMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/FileMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/FileRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/FilesList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/MessageType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/AbstractMessageHandler$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/AbstractMessageHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/ContextStoreService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/HandlerProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/NettyServer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/NettyServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/StringMessageHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/UserNameService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/nio/ExampleBuffers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/nio/ExamplesPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/nio/NioServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/IntFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/StreamExamples.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/my_client.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/client/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/my_client.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +169,14 @@
       <workItem from="1639160618118" duration="26000" />
       <workItem from="1639160662341" duration="676000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1640701195131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640701195131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="139" key="#App" timestamp="1639304599281">
