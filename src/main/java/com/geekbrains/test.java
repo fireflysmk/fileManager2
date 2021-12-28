@@ -22,6 +22,8 @@ public class test {
         System.out.println(dir3);
 
 
+        System.out.println("check GIT commit from IDEA");
+
 
 
 

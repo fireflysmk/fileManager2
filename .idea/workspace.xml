@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" afterDir="false" />
+    <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640701195131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes">
+      <created>1640703328505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640703328505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +251,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1640684138533" />
-    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1640684175378">
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1640703351143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640684175378" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640703351143" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1639498269723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
