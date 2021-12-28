@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/AbstractMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FileMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/FilesList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/model/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/AbstractMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/ContextStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/HandlerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/StringMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/netty/UserNameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/ExampleBuffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/ExamplesPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/nio/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/IntFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/StreamExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/cloud_client.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/Client1/FilefromClient1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/Client1/filreFromServer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/Client1/testcopiedFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/ServerCommonStorage/FilefromClient1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/ServerCommonStorage/filreFromServer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/Controller$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/FileInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/cloud_client.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/AbstractMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/FileMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/FileRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/FilesList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/model/MessageType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/AbstractMessageHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/AbstractMessageHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/ContextStoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/HandlerProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/StringMessageHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/netty/UserNameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/nio/ExampleBuffers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/nio/ExamplesPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/nio/NioServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/IntFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/StreamExamples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/stream/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/client/my_client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/client/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/client/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/client/my_client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekbrains/server/Server.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="226YbqYQ1ruhE4yDLPGAI7wKjnH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/geekbrains/client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.client.App" />
+      <module name="fileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.netty.NettyServer" />
+      <module name="fileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.nio.NioServer" />
+      <module name="fileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.server.Server" />
+      <module name="fileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.test" />
+      <module name="fileManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.NioServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54945d28-7423-47b8-b639-d380c5597bbc" name="Changes" comment="" />
+      <created>1639159577520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639159577520</updated>
+      <workItem from="1639159578986" duration="946000" />
+      <workItem from="1639160535988" duration="45000" />
+      <workItem from="1639160618118" duration="26000" />
+      <workItem from="1639160662341" duration="676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="139" key="#App" timestamp="1639304599281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#App/0.0.1920.1040@0.0.1920.1040" timestamp="1639304599281" />
+    <state x="657" y="139" key="#Server" timestamp="1639304558872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="139" key="#Server/0.0.1920.1040@0.0.1920.1040" timestamp="1639304558872" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640340920435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640340920435" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1640686740067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1640686740067" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1640341774367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1640341774367" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1640699222902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640699222902" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1640699222902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640699222902" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1640699222902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640699222902" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1640699222902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640699222902" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1640339923409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640339923409" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1640684138533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1640684138533" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1640684175378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640684175378" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1639498269723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1639498269723" />
+  </component>
+</project>
