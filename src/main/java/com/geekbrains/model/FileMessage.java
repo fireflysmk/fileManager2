@@ -26,6 +26,7 @@ public class FileMessage implements AbstractMessage {
         bytes = Files.readAllBytes(path);
     }
 
+
     @Override
     public MessageType getMessageType() {
         return MessageType.FILE;

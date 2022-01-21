@@ -1,13 +1,12 @@
 package com.geekbrains.netty;
 
+import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import com.geekbrains.model.AbstractMessage;
-import com.geekbrains.model.FileMessage;
-import com.geekbrains.model.FileRequest;
-import com.geekbrains.model.FilesList;
+import com.geekbrains.model.*;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import lombok.extern.slf4j.Slf4j;
@@ -15,16 +14,32 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class AbstractMessageHandler extends SimpleChannelInboundHandler<AbstractMessage> {
 
-    private Path currentPath;
+    private Path serverPath;
 
     public AbstractMessageHandler() {
-       // currentPath = Paths.get("serverFiles");
-        currentPath = Paths.get(System.getProperty("user.dir")).resolve("storage").resolve("ServerCommonStorage");
+
+        try {
+            Path defaultPath = Paths.get(System.getProperty("user.dir")).resolve("storage").resolve("ServerCommonStorage");
+            this.serverPath = defaultPath;
+
+            if (!Files.exists(defaultPath)) {
+                log.debug("trying create Folder: " +  defaultPath);
+                Files.createDirectory(defaultPath);
+            } else {
+                log.debug("folder already exists");
+            }
+
+            this.serverPath = defaultPath;
+
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        ctx.writeAndFlush(new FilesList(currentPath));
+        ctx.writeAndFlush(new FilesList(serverPath));
     }
 
     @Override
@@ -35,16 +50,24 @@ public class AbstractMessageHandler extends SimpleChannelInboundHandler<Abstract
             case FILE_REQUEST:
                 FileRequest req = (FileRequest) message;
                 ctx.writeAndFlush(
-                        new FileMessage(currentPath.resolve(req.getFileName()))
+                        new FileMessage(serverPath.resolve(req.getFileName()))
                 );
                 break;
             case FILE:
                 FileMessage fileMessage = (FileMessage) message;
                 Files.write(
-                        currentPath.resolve(fileMessage.getFileName()),
+                        serverPath.resolve(fileMessage.getFileName()),
                         fileMessage.getBytes()
                 );
-                ctx.writeAndFlush(new FilesList(currentPath));
+                ctx.writeAndFlush(new FilesList(serverPath));
+                break;
+            case FILE_DELETE:
+                FileDelete reqDel = (FileDelete) message;
+                System.out.println("SERVER: " +  "  delete file: "+ reqDel.getFileName());
+
+                Path serverFilePath = serverPath.resolve(reqDel.getFileName());
+                Files.delete(Paths.get(String.valueOf(serverFilePath)));
+                ctx.writeAndFlush(new FilesList(serverPath));
                 break;
         }
     }

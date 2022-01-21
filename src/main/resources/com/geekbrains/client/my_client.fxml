@@ -11,19 +11,20 @@
          <Button layoutX="374.0" layoutY="136.0" mnemonicParsing="false" onAction="#upload" text="&lt;--" />
          <Label layoutX="3.0" layoutY="15.0" text="ServerPath" />
          <Label layoutX="417.0" layoutY="15.0" prefHeight="17.0" prefWidth="57.0" text="ClientPath" />
-         <TextField fx:id="serverPathField" layoutY="34.0"  prefHeight="25.0" prefWidth="359.0" />
+         <TextField fx:id="serverPathField" layoutY="34.0" prefHeight="25.0" prefWidth="359.0" />
+          <!--<TextField fx:id="serverPathField" layoutY="34.0"  prefHeight="25.0" prefWidth="359.0" />-->
          <Button fx:id="refreshClientPath" layoutX="730.0" layoutY="34.0" mnemonicParsing="false" onAction="#getClientPath" text="⭯" />
          <TextField fx:id="сlientPathField" layoutX="416.0" layoutY="34.0" prefHeight="25.0" prefWidth="314.0" />
 
-         <!--<TextArea fx:id="fileListLeft" layoutY="59.0" prefHeight="362.0" prefWidth="359.0" />-->
-         <ListView fx:id="serverFiles" layoutY="59.0" prefHeight="362.0" prefWidth="359.0"/>
-         <!--<TextArea fx:id="fileListRight" layoutX="415.0" layoutY="59.0" prefHeight="362.0" prefWidth="314.0" />-->
-         <ListView fx:id="clientFiles" layoutX="415.0" layoutY="59.0" prefHeight="362.0" prefWidth="314.0"/>
 
-        <Button layoutX="374.0" layoutY="186.0" mnemonicParsing="false" onAction="#download" text="--&gt;" />
-        <Button fx:id="refreshServerPath" layoutX="361.0" layoutY="34.0" mnemonicParsing="false" onAction="#getServerPath" text="⭯" />
-     </children></AnchorPane>
-  <Label layoutX="23.0" layoutY="461.0" text="Console" />
-  <Label layoutX="23.0" layoutY="559.0" text="Server Output" />
+          <ListView fx:id="serverFiles" layoutY="59.0" prefHeight="362.0" prefWidth="359.0" />
+          <ListView fx:id="clientFiles" layoutX="415.0" layoutY="59.0" prefHeight="362.0" prefWidth="314.0" />
 
-</AnchorPane>
+         <Button layoutX="374.0" layoutY="186.0" mnemonicParsing="false" onAction="#download" text="--&gt;" />
+         <Button fx:id="refreshServerPath" layoutX="361.0" layoutY="34.0" mnemonicParsing="false" onAction="#getServerPath" text="⭯" />
+         <Button layoutX="362.0" layoutY="299.0" mnemonicParsing="false" onAction="#delete" text="delete" />
+      </children></AnchorPane>
+   <Label layoutX="23.0" layoutY="461.0" text="Console" />
+   <Label layoutX="23.0" layoutY="559.0" text="Server Output" />
+
+ </AnchorPane>
