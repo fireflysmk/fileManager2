@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.geekbrains.client.InitialController">
+   <children>
+      <Button layoutX="155.0" layoutY="331.0" mnemonicParsing="false" onAction="#startMainAppWindow" prefHeight="25.0" prefWidth="59.0" text="START" />
+      <Label fx:id="welcome" layoutX="140.0" layoutY="14.0" prefHeight="17.0" prefWidth="68.0" text="WELCOME" />
+      <TitledPane animated="false" layoutX="14.0" layoutY="37.0" prefHeight="281.0" prefWidth="320.0" text="Connection Settings">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="255.0" prefWidth="297.0">
+               <children>
+                  <TextField fx:id="userName" layoutX="13.0" layoutY="23.0" promptText="UserName" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <TextArea fx:id="console" layoutX="24.0" layoutY="368.0" prefHeight="85.0" prefWidth="320.0" />
+      <Label layoutX="24.0" layoutY="347.0" text="Console" />
+   </children>
+</AnchorPane>

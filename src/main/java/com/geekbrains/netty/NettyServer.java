@@ -30,6 +30,7 @@ public class NettyServer {
                         }
                     });
             ChannelFuture future = bootstrap.bind(8189).sync();
+
             log.debug("Server started...");
             future.channel().closeFuture().sync(); // block
         } catch (Exception e) {
